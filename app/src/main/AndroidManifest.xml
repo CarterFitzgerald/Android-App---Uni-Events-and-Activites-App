@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UC Bruce Campus Map and Events"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AssignmentMobileTechCarterFitzgerald"
+        tools:targetApi="31">
+        <activity
+            android:name=".ActivityDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDetails"
+            android:exported="false" />
+        <activity
+            android:name=".StreetViewActivity4"
+            android:exported="false"
+            android:label="Street View for an Entry"
+            android:parentActivityName=".MapsActivity" />
+        <activity
+            android:name=".StreetViewActivity3"
+            android:exported="false"
+            android:label="Street View for an Entry"
+            android:parentActivityName=".MapsActivity" />
+        <activity
+            android:name=".StreetViewActivity2"
+            android:exported="false"
+            android:label="Street View for an Entry"
+            android:parentActivityName=".MapsActivity" />
+        <activity
+            android:name=".StreetViewActivity1"
+            android:exported="false"
+            android:label="Street View for an Entry"
+            android:parentActivityName=".MapsActivity" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAdYcuP3ghqGhBSGZJw_YfjBxYCQRhdahs" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="UC Bruce Map" />
+        <activity
+            android:name=".UploadImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditExistingActivity"
+            android:exported="false"
+            android:label="Edit an Existing Activity" />
+        <activity
+            android:name=".AddEventActivity"
+            android:exported="false"
+            android:label="Add a New Activity and Edit It"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

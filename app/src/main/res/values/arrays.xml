@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="location_list">
+        <item>Select a Location</item>
+        <item>Library</item>
+        <item>Refractory</item>
+        <item>Building 6</item>
+        <item>UC Hub</item>
+        <item>UC Lodge</item>
+        <item>Current Location</item>
+    </string-array>
+</resources>

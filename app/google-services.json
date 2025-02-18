@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "920080880573",
+    "project_id": "assignment-1-16b9e",
+    "storage_bucket": "assignment-1-16b9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920080880573:android:62ebccf1af67727ff9b8d4",
+        "android_client_info": {
+          "package_name": "com.example.assignment_mobiletech_carterfitzgerald"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJL2_Eh1FX1HbwF7dkTQ2QKZheZT9qdko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
